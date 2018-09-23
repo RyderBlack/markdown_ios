@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import startups from "./startupopenhouse-mtl2018";
-//import Details from "./components/Details";
 import Details from './components/Details'
 class App extends Component {
 
@@ -21,7 +20,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <div className="container" style={{'border': '2px'}}>
+        <div className="container-fluid detail-container">
           <Details details={this.state.startups} />
         </div>
       </div>

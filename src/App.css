@@ -27,4 +27,12 @@
   to { transform: rotate(360deg); }
 }
 
+.detail-container {
+  border: 2px solid orange;
+  margin-top: 2em;
+}
+
+.detail-container > .row {
+  margin: 0 auto
+}
 
