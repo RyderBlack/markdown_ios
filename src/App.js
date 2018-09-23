@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import startups from "./startupopenhouse-mtl2018";
-import Details from './components/Details';
-
+//import Details from "./components/Details";
+import Details from './components/Details'
 class App extends Component {
 
   constructor(props) {
