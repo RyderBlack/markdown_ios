@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import coins from "./startupopenhouse-mtl2018";
 import Details from './components/Details'

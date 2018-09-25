@@ -11,8 +11,8 @@ export default class Details extends Component {
           const linkImg = 'https://images.startupopenhouse.com/thumbnail?colorspace=srgb&width=128&url=https://s3.amazonaws.com/soh-pwa-files-production/';
          
           return (
-        <div key={coin.props.id} className="col-md-10 center">
-            <div className={ coin.props.hiring ? "row text-white bg-success" : "row text-white bg-danger"} >
+        <div key={coin.props.id} className="col-md-8 center" style={{marginBottom: '20px', padding: '15px'}}>
+            <div className={coin.props.hiring ? "row text-white bg-success" : "row text-white bg-danger"} >
                 <div className="col-md-2">
                 <img className="card-img" src={linkImg+coin.props.logo_square.props.uri} style={{"maxHeight": "120px"}} alt="logo"/>
                 </div>
