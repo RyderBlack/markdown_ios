@@ -40,7 +40,7 @@
 }
 
 .not-hiring {
-  box-shadow: #f02b6a 6px 0 0 0 inset;
+  box-shadow: #F64060 6px 0 0 0 inset;
 }
 
 .hiring-show {
@@ -48,8 +48,12 @@
   color: #01c28f
 }
 
-.hiring-hide {
+.not-hiring-show {
+  display: block;
+  color: #F64060;
+}
+
+.hide {
   display: none;
-  color: #c90845
 }
 
