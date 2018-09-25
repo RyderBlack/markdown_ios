@@ -35,3 +35,21 @@
   margin: 0 auto
 }
 
+.hiring {
+  box-shadow: #0fd9a3 6px 0 0 0 inset;
+}
+
+.not-hiring {
+  box-shadow: #f02b6a 6px 0 0 0 inset;
+}
+
+.hiring-show {
+  display: block;
+  color: #01c28f
+}
+
+.hiring-hide {
+  display: none;
+  color: #c90845
+}
+

@@ -12,12 +12,15 @@ export default class Details extends Component {
          
           return (
         <div key={coin.props.id} className="col-md-8 center" style={{marginBottom: '20px', padding: '15px'}}>
-            <div className={coin.props.hiring ? "row text-white bg-success" : "row text-white bg-danger"} >
+            <div className={coin.props.hiring ? "row hiring" : "row not-hiring"} >
                 <div className="col-md-2">
                 <img className="card-img" src={linkImg+coin.props.logo_square.props.uri} style={{"maxHeight": "120px"}} alt="logo"/>
                 </div>
                 <div className="col-md-10" style={{padding: '15px'}}>
-                    <h5 className="card-title">{coin.props.name}</h5>
+                    <h5 className="card-title">{coin.props.name} 
+                    <span className={coin.props.hiring ? "hiring-show" : "hiring-hide"}>is hiring now!</span>
+                    <span className={coin.props.hiring ? "hiring-hide" : "hiring-show"}>is not hiring</span>
+                    </h5>
                     <p className="card-text">{coin.props.about}</p>
                 </div>
             </div>
