@@ -18,7 +18,7 @@ export default class Details extends Component {
                 </div>
                 <div className="col-md-10" style={{padding: '15px'}}>
                     <h5 className="card-title">{coin.props.name} 
-                    <span className={coin.props.hiring === true ? "hiring-show" : "hide"}><a href={coin.props.other_joblist}>is hiring now!</a></span>
+                    <span className={coin.props.hiring === true ? "hiring-show" : "hide"}><a href={coin.props.other_joblist ? coin.props.other_joblist : coin.props.website_url}>is hiring now!</a></span>
                     {/*console.log(coin.props._id)*/}
                     <span className={coin.props.hiring === false ? "not-hiring-show" : "hide"}>is not hiring</span>
                     </h5>
