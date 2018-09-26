@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 80px;
   padding: 20px;
   color: white;
 }
@@ -29,10 +29,6 @@
 
 .detail-container {
   margin-top: 2em;
-}
-
-.detail-container > .row {
-  margin: 0 auto
 }
 
 .hiring {
